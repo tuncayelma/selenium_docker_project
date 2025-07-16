@@ -140,7 +140,7 @@ def run_main_selenium():
 
       # Tải video
       download_button_xpath = "//a[@class='btn btn-success btn-lg btn-download btn-download-n']"
-      for i in range(5):
+      for i in range(4):
           try:
                   # Find and click the download button
                   download_button = driver.find_element(By.XPATH, download_button_xpath)
