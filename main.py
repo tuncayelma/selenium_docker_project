@@ -15,6 +15,7 @@ os.environ["CHROME_PATH"] = "/usr/bin/google-chrome"
 chromedriver_autoinstaller.install()
 
 
+
 def create_chrome_options():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
