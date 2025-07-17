@@ -1,5 +1,5 @@
 sudo: required
-language: minimal  # Không cần môi trường Python nếu không test
+language: minimal  
 
 services:
   - docker
